@@ -1,4 +1,4 @@
 theme: jekyll-theme-cayman
-url: KailunSun.github.io
-baseurl: /KailunSun
+url: "https://KailunSun.github.io"
+baseurl: "/KailunSun"
 
