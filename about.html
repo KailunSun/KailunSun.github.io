@@ -47,6 +47,32 @@
             bottom: 0;
             width: 100%;
         }
+
+        /* Style for images */
+        section img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 20px auto; /* Adjust margin as needed */
+            border-radius: 8px; /* Add a border-radius for rounded corners */
+        }
+
+        /* Adjust layout for Where I Came From and Places I've Been To */
+        #about {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        #where-i-came-from {
+            flex-basis: calc(50% - 10px);
+            box-sizing: border-box;
+        }
+
+        #places-ive-been {
+            flex-basis: calc(50% - 10px);
+            box-sizing: border-box;
+        }
     </style>
 </head>
 
@@ -59,14 +85,33 @@
     <nav>
         <a href="index.html">Home</a>
         <a href="about.html">About</a>
-        <a href="https://github.com/your-github-username" target="_blank">GitHub</a>
-        <a href="https://www.linkedin.com/in/your-linkedin-username" target="_blank">LinkedIn</a>
+        <a href="https://github.com/KailunSun" target="_blank">GitHub</a>
+        <a href="https://www.linkedin.com/in/kailun-sun" target="_blank">LinkedIn</a>
     </nav>
 
     <main>
         <section id="about">
-            <h2>About Us</h2>
-            <p>Learn more about our company and mission.</p>
+            <div id="where-i-came-from">
+                <h2>Where I Came From</h2>
+                <img src="Hangzhou1.jpg" alt="Hangzhou"/>
+                <img src="Hangzhou2.jpg" alt="Hangzhou">
+                <p>I was born and raised in Hangzhou, a place known for its beauty of nature and one of
+                   the starting place for online buiness platform, Alibaba. Here is a <a href="https://www.youtube.com/watch?v=o2t5aR8QTXk" target="_blank">YouTube link</a> to know 
+                   more about Hangzhou.</p>
+            </div>
+
+            <div id="places-ive-been">
+                <h2>Places I've Been To</h2>
+                <img src="Toronto.jpg" alt="CN Tower"/>
+                <img src="WechatIMG36.jpg" alt="Californa Highway"/>
+                <p>Exploring new places is one of my passions. I have had the opportunity to visit Las 
+                    Angeles, Japan, Toronto and Austrila in the past few years </p>
+            </div>
+
+            <!-- Backlink to the Home page -->
+            <p><a href="index.html">Back to Home</a></p>
+
+            <!-- Add more relevant content about yourself -->
         </section>
     </main>
 
