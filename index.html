@@ -10,7 +10,7 @@
         body {
             font-family: Arial, sans-serif;
             margin: 0;
-            padding: 0;
+            padding: 10px;
             background-color: #f5f5f5;
             color: #333;
         }
@@ -38,14 +38,25 @@
             padding: 20px;
         }
 
-        footer {
-            background-color: #333;
-            color: #fff;
-            text-align: center;
-            padding: 10px;
-            position: fixed;
-            bottom: 0;
-            width: 100%;
+        section {
+            margin-bottom: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        /* Style for the image in the About Me section */
+        section img {
+            max-width: 45%; /* Adjust width as needed */
+            height: auto;
+            display: block;
+            margin: 20px 0; /* Adjust margin as needed */
+            border-radius: 8px; /* Add a border-radius for rounded corners */
+        }
+
+        /* Style for the About Me text */
+        .about-text {
+            max-width: 45%; /* Adjust width as needed */
         }
     </style>
 </head>
@@ -59,24 +70,49 @@
     <nav>
         <a href="index.html">Home</a>
         <a href="about.html">About</a>
-        <a href="https://github.com/your-github-username" target="_blank">GitHub</a>
-        <a href="https://www.linkedin.com/in/your-linkedin-username" target="_blank">LinkedIn</a>
+        <a href="https://github.com/KailunSun" target="_blank">GitHub</a>
+        <a href="https://www.linkedin.com/in/kailun-sun" target="_blank">LinkedIn</a>
     </nav>
 
     <main>
         <section id="home">
-            <h2>About Me</h2>
-            <p>My name is KailunSun， I am current third year students at SFU. My major is Data Science.
-               I also earned a Tourism Management Diploa at Capilano University. After graduation I have 
-               wored in Best Western hotel and Trip.com one of the biggest online travel agent company in
-               the world.</p>
+            <!-- Add an image to the left -->
+            <img src="WechatIMG38.jpg" alt="Kailun Sun | Data Science| SFU" />
 
-            <h3> Hobbies</h3>       
-               <p>I love doing outdoor exercises during weekends with my friends. I believe doing exerice 
-               can help relaxing from daily work and study in the main time also good for health.</p>
+            <!-- About Me text to the right -->
+            <div class="about-text">
+                <h2>About Me</h2>
+                <p>Hello, I'm Kailun Sun, and my passion lies in the exciting fields of
+                    Machine Learning and Artificial Intelligence. I am currently enrolled 
+                    in the Data Science program at <a href="https://www.sfu.ca/" target="_blank">Simon Fraser University</a>, with a strong 
+                    commitment to advancing my education through a Master's degree upon 
+                    the completion of my Bachelor's. In addition to my academic journey, 
+                    I have also earned a Tourism Management Diploma from Capilano University.</p><br>
+                               
 
-            <h4>Work Experience</h4>
+
+                 <h2>Skills</h2>
+                <h3> Programming Languages:</h3>
+                    <li>-Python (most common for data science)</li>
+                    <li>-R</li>
+                    <li>-SQL</li>
+
+
+                <h3>Statistical Analysis:</h3>
+                    <li>-Descriptive and inferential statistics</li>
+                    <li>-Hypothesis testing</li>
+                    <li>-Regression analysis</li></p><br>
+
+
+                 <h2>Contect Information</h3>  
+                
+                 <ul>Email: kellensun46@gmail.com</ul> 
+                 
             
+            
+            
+            
+                </div>
         </section>
     </main>
 
@@ -87,3 +123,4 @@
 </body>
 
 </html>
+
